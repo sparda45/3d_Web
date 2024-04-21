@@ -5,28 +5,27 @@ import Island from '../models/Island';
 import Sky from '../models/Sky';
 import Bird from '../models/Bird';
 import Planes from '../models/Planes';
+import HomeInfo from '../components/HomeInfo';
 
 
 
- {/* <div className='absolute top-28 left-0 right-0 z-10 justify-center items-center flex'>
-        pop up
-    </div> */}
 const Home = () => {
     const [isRotating, setIsRotating] = useState(false);
     const [currentStage, setCurrentStage] = useState(1)
-
-
-     const adjustIslandForScreenSize = () => {
+    
+    
+    const adjustIslandForScreenSize = () => {
         let screenScale = null;
         let screenPosition = [0, -6.5, -43];
         let rotation = [0.1, 4.7, 0];
-
+        
         if(window.innerWidth < 768){
             screenScale = [0.9 , 0.9, 0.9];
         } else{
             screenScale = [1, 1, 1];
         }
         return [screenScale,screenPosition]
+
      }
      const adjustPlanesForScreenSize = () => {
         let screenScale, screenPosition;
@@ -51,6 +50,10 @@ const Home = () => {
 
   return (
    <section className='w-full h-screen relative'>
+           <div className='absolute top-28 left-0 right-0 z-10 justify-center items-center flex'>
+             {currentStage && <HomeInfo currentStage={currentStage}/>}
+           </div>
+   
    <Canvas 
    className={`w-full h-screen bg-transparent ${
     isRotating ? "cursor-grabbing" : "cursor-grab"
