@@ -26,11 +26,16 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import Figma from './Figma.svg'
+import Kotlin from './kotlin.svg'
+import Android from './android.svg'
 
 export {
     css,
     express,
+    Android,
     git,
+    Kotlin,
     github,
     html,
     javascript,
@@ -55,5 +60,6 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    Figma
 }

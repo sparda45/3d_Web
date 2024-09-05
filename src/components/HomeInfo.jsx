@@ -31,7 +31,7 @@ const renderContent = {
     3: (
         <InfoBox
         text="I made several projects during my year as a programmer and UI/UX designer. Curious about the impact? "
-        link="/Projects"
+        link="/project"
         btnText=" Visit My Portofolio "
         />
     ),

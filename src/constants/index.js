@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { esgul,dsc,asia,potatos,kemendikbud,bangkit } from "../assets/images";
 import {
     car,
     contact,
@@ -23,7 +23,10 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    Figma,
+    Kotlin,
+    Android
 } from "../assets/icons";
 
 export const skills = [
@@ -31,6 +34,19 @@ export const skills = [
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
+    },{
+        imageUrl:Kotlin,
+        name: "Kotlin",
+        type: "Java"
+    },{
+        imageUrl:Android,
+        name:"android",
+        type: "android"
+    },
+    {
+        imageUrl: Figma,
+        name: "Figma",
+        type: "Frontend"
     },
     {
         imageUrl: express,
@@ -111,55 +127,79 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        title: "creative design",
+        company_name: "Kemendikbud",
+        icon: kemendikbud,
+        iconBg: "#5D8AFD",
+        date: "Aug 2019 - Dec 2019",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Created content for Kemendikbud Ri Instagram, resulting in a 15% increase in engagement.",
+            "Developed motion graphics for Kemendikbud Ri, resulting in a 20% increase in video views.",
+            "Conducted video reporting for Kemendikbud Ri, resulting in a 25% increase in website traffic.",
+            "Wrote documentation for Kemendikbud Ri, in a 30% decrease in support requests.",
+        ],
+    },
+    {
+        title: "Project Management & UI/UX Designer",
+        company_name: "Potatos Studio",
+        icon: potatos,
+        iconBg: "#5D6DFD",
+        date: "Sept 2021 - Present",
+        points: [
+            "Conducted user experience research and created prototypes for clients, resulting in a 20% increase in customer satisfaction.",
+            "Managed project tasks across the division using Jira and Trello, resulting in a 80% increase in task completion efficiency",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        title: "Lead",
+        company_name: "Google Developer Student Club",
+        icon: dsc,
+        iconBg: "#5DFDEA",
+        date: "Aug 2023 - jul 2024",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Reported on the impact of DSC events to Google Indonesia, providing valuable insights and recommendations for future initiatives.",
+            "Created engaging and informative media content, including news articles and creative pieces, to increase audience engagement by 20%.",
+        ],
+    },
+    {
+        title: "Assistant Lecturer",
+        company_name: "Esa Unggul University",
+        icon: esgul,
+        iconBg: "#FDBD5D",
+        date: "Jun 2024 - Aug 2024",
+        points: [
+            "Assisted the Lecturer in developing a learning path for the project management class resulting in a 20% increase in student comprehension",
+            "Introduced students to the workflow of project management, resulting in a 50% increase in understanding and efficiency",
+        ],
+    },
+    {
+        title: "Project Managment Intern",
+        company_name: "Asia University Taiwan",
+        icon: asia,
+        iconBg: "#5DFD77",
+        date: "May 2024 - Aug 2024",
+        points: [
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "Mobile Developer Mentor",
+        company_name: "Bangkit Academy",
+        icon: bangkit,
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "May 2024 - Aug 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Guided and mentored aspiring Android developers through an intensive learning program focused on building industry-relevant mobile applications",
+
+            "Collaborated with a team of mentors and instructors to design and improve the learning curriculum.",
+
+            "Contributed to the continuous improvement of the mentorship program by sharing insights and student performance analysis with the program management.",
         ],
     },
 ];

@@ -1,15 +1,16 @@
-import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
-import logo from './logo.svg'
+import kemendikbud from './kemendikbud.png';
+import dsc from './200.png'
+import asia from './asia.png'
+import potatos from './potatos.png'
+import esgul from './esgul.png'
+import bangkit from './bangkit.png'
 
 export {
-    hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    logo
+    kemendikbud,
+    dsc,
+    asia,
+    potatos,
+    esgul,
+    bangkit
+
 }
