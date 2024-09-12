@@ -19,7 +19,7 @@ const renderContent = {
         <span className='font-semibold mx-2 text-white'>Reflyn or Dyaz</span>
         👋
         <br />
-        A Software Engineer from Indonesia</h1>
+        A Software Engineer and Ui/Ux designer from Indonesia</h1>
     ),
     2: (
         <InfoBox
