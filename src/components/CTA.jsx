@@ -8,7 +8,7 @@ const CTA = () => {
  Wanna Work With me?<br className='sm:block hidden' />
         Just Contact Me!!
  </p>
- <Link to='contacts' className='btn'>
+ <Link to='/contacts' className='btn'>
     Contact
 </Link>
     </section>
